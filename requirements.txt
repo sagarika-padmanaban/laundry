@@ -1,0 +1,46 @@
+create react app
+folder structure - client , server
+server side download dependencies:
+-"body-parser"
+-"cors"
+-"express"
+-"mongoose"
+-"nodemon"
+data model 
+schema-
+   name: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  phoneno: {
+    type: Number,
+    required:true,
+  },
+  state: {
+    type: String
+    required: true
+  },
+  district: {
+    type: String,
+    required: true
+
+  },
+  address: {
+    type: String,
+    required: true
+
+  }
+  pincode:{
+  type:String,
+  required: true
+  }
+client side dependencies:
+-"react-router-dom"
