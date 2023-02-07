@@ -1,0 +1,18 @@
+.aside{
+    width:3rem;
+    background-color: #5861AE;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.aside >div{
+    margin-top: 20px;
+}
+.aside >div:hover{
+   transform: scale(1.2);
+}
+.more{
+    padding: 5px;
+    background-color: white;
+}

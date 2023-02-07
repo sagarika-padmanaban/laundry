@@ -1,0 +1,31 @@
+.create__header{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow:  0px 2px 48px #0000000F;
+}
+.create__header__heading{
+    flex: 0.8;
+    font-size: 11px;
+    color: #5861AE;
+    padding: 0.625rem;
+}
+#username{
+    background-color: #5861AE;
+    color: white;
+}
+.create__header__nav{
+    display: flex;
+    flex: 0.2;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.create__header__nav > h3{
+    /* box-shadow:   48px 2px 48px #0000000F; */
+    border-left: 1px solid gainsboro;
+    padding: 0.625rem;
+}
+.create__header__nav > h3:hover{
+    border: 1px solid gray;
+}
