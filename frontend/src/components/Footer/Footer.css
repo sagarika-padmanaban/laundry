@@ -1,10 +1,9 @@
 .footer{
     background-color: #182838;
-    height: 2.54rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
     color: white;
     font-size: 10px;
     margin: auto;
-}
-.div{
-    
 }

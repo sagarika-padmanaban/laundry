@@ -1,23 +1,17 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import './Header.css'
 
-const Header = ({username}) => {
-  console.log(username);
+const Header = () => {
   return (
       <div className='create__header'>
         <div className='create__header__heading'>
             <p>LAUNDRY</p>
         </div>
         <div className='create__header__nav'>
+            <p>Home</p>
             <p>Pricing</p>
             <p>Career</p>
-            <div className='link'>
-            <Link to="/">
-            <h3 id='username' >{username}</h3>
-            </Link>
-            </div>
-    
+            <p id='username'>SignIn</p>
         </div>
       </div>
   )

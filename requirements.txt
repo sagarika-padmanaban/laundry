@@ -42,5 +42,53 @@ schema-
   type:String,
   required: true
   }
+
+
+schema for create order:
+  product: {
+    type: array,
+    required: true
+  },
+  quantity: {
+    type: array,
+    required: true
+  },
+  updated: { 
+    type: Date, 
+    default: Date.now 
+  },
+  storelocation:{
+    type: String,
+    required: true
+  },
+  storephone:{
+    type: Number,
+    required: true
+  }
+  totalitems: {
+    type: Number,
+    required:true,
+  },
+  price: {
+    type: Number
+    required: true
+  },
+  storeaddress: {
+    type: String,
+    required: true
+  }
+  washtype:{
+    type: ,
+    required: true
+  }
+
 client side dependencies:
 -"react-router-dom"
+
+3 components for create page:
+  create
+  createSuccessPopup
+  summaryPopup
+(header,aside,footer)
+
+
